@@ -5,3 +5,5 @@ def hasil_prediksi():
 
 jendela = tk.Tk()
 jendela.title("Prediksi Prodi")
+
+label_judul = tk.Label(jendela, text="Aplikasi Prediksi Prodi Pilihan", font=("Arial", 14))
