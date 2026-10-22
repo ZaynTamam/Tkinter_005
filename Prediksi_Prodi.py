@@ -16,3 +16,5 @@ for i in range(10):
 
 tombol_prediksi = tk.Button(jendela, text="Hasil Prediksi", command=hasil_prediksi)
 tombol_prediksi.grid(row=11, column=0, columnspan=2, pady=10)
+
+label_hasil = tk.Label(jendela, text="")
