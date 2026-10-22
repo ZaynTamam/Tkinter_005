@@ -18,3 +18,4 @@ tombol_prediksi = tk.Button(jendela, text="Hasil Prediksi", command=hasil_predik
 tombol_prediksi.grid(row=11, column=0, columnspan=2, pady=10)
 
 label_hasil = tk.Label(jendela, text="")
+label_hasil.grid(row=12, column=0, columnspan=2, pady=5)
